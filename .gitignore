@@ -6,10 +6,4 @@
 !helix/**
 !starship.toml
 !filezilla/**
-
-# Nushell with configurable env
-!nushell/
-!nushell/**
-# ignore env.nu
-nushell/env.nu
-nushell/history.txt
+!fish/**
