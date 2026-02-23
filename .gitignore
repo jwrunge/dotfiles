@@ -3,8 +3,6 @@
 !*/
 
 # Allow list
-!.gitignore
-
 !helix/**
 !starship.toml
 !filezilla/**
@@ -14,3 +12,4 @@
 !nushell/**
 # ignore env.nu
 nushell/env.nu
+nushell/history.txt
