@@ -1,0 +1,222 @@
+exit
+ls
+hx config.nu
+eixt
+exit
+ls
+hx .zshrc
+ls
+$nu.config-path
+hx $nu.config-path
+hx
+brew
+vim
+config env
+clear
+config
+config env
+$env.PATH
+$env.PATH ++= ['/opt/homebrew/bin']
+hx
+config env
+ls
+hx
+brew
+:q
+nimble
+hx
+$env.PATH ++= ['/opt/homebrew/bin']
+config env
+config
+config env
+$env.PATH ++= ['/opt/homebrew/bin']
+config env
+hx
+config env
+$env.PATH ++= ['/opt/homebrew/bin']
+config env
+nimble
+hx
+$env.PATH ++= ['/opt/homebrew/bin']
+config env
+hx
+mkdir ($nu.data-dir | path join "vendor/autoload")
+starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
+neofetch
+brew install neofetch
+newfetch
+neofetch
+hx ~/.wezterm.lua
+config env
+config
+config nu
+reload
+hx ~/.config/starship.toml
+ls
+hx ~/.config/starship.toml
+starship preset bracketed-segments -o ~/.config/starship.toml
+hx ~/.config/starship.toml
+cd ~/Code
+ls
+cd Great-Leather-2024/
+brew install php
+cd ..
+cd Great-Leather-2024/
+cd ..
+cd nim
+cd ..
+ls
+hx
+hx nim
+hx ~/.config/helix/ls
+hx ~/.config/helix
+cd ../.config/helix
+ls
+cd themes
+ls
+cd ..
+cd helix-themes/
+ls
+cd ..
+ls
+hx config.toml
+ls
+ls themes
+ls themes | grep main
+hx themes/main.toml
+hx ~/Code/nim
+hx
+hx ~/Code/nim
+ls
+pwd
+cd ~/Code/
+cd nim
+wezterm
+wezterm cli split-pane --right
+exit
+cd ~/Code/ui
+hx .
+hx ~/.wezterm.lua
+hx .
+exit
+eixt
+exit
+ls
+copilot
+hx ~/.wezterm.lua
+clear
+hx ~/.wezterm.lua
+ls ~/.config
+ls -a ~
+ls -a ~ | grep nu
+ls ~/.config | grep nu
+hx ~/.config/nushell/
+hx ~
+hx ~/config
+ls $nu
+ls $nu.evn
+ls $nu.env
+$nu
+hx `/Users/jacobrunge/Library/Application Support/nushell`\
+hx `/Users/jacobrunge/Library/Application Support/nushell`
+exit
+ls
+exit
+cd .config
+ls
+git init
+touch .gitifnore
+rm .gitifnore
+ls
+git ls-tree
+git ls-files
+git status
+git rm -r --cached
+git rm -r --cached .
+git status
+git add .
+git status
+git reset
+ls
+git status
+git add *
+git commit -m "Initial -- only allow helix"
+ls
+git status
+ls
+git status
+git add *
+git status
+git add *
+ls
+git status
+git add *
+git status
+ls -a
+ls -l helix/helix-themes
+ls -l helix
+ls helix/themes
+rm -rf helix/helix-themes/
+sudo rm -rf helix/helix-themes/
+git status
+git add *
+git status
+git commit -m "Working recursive dirs"
+ls
+git status
+git add *
+git commit -m "Add recursive subdirs for more programs"
+git log
+git reset --soft HEAD~1
+git status
+ls
+ls github-copilot/
+cat github-copilot/apps.json
+ls
+git status
+git reset
+git status
+git add *
+git commit -m "Add non-copilot subdirs"
+git branch
+ls
+cd nushell/
+ls
+hx config.nu
+hx --health
+hx --health nu
+hx --grammar fetch
+hx --grammar build
+ls
+hx --health nu
+ls ~/.config/helix/runtime/queries
+ls ~/.config/helix/runtime
+hx config.nu
+cd /opt/homebrew/bin/
+ls
+ls | grep nu
+cd nu
+mkdir -p ~/.config/helix/runtime/queries/nu
+mkdir ~/.config/helix/runtime/queries/nu
+cd ~/.config/helix/runtime
+ls
+curl -L https://raw.githubusercontent.com -o ~/.config/helix/runtime/queries/nu/highlights.scm<\n>
+curl -L https://raw.githubusercontent.com -o ~/.config/helix/runtime/queries/nu/injections.scm<\n>
+curl -L https://raw.githubusercontent.com -o ~/.config/helix/runtime/queries/nu/textobjects.scm<\n>
+curl -L https://raw.githubusercontent.com -o ~/.config/helix/runtime/queries/nu/indents.scm<\n>
+hx --grammar fetch<\n>hx --grammar build<\n>
+hx --health nu
+hx config.nu
+cd ../..
+ls
+hx config.nu
+cd nushell/
+hx config.nu
+exit
+nu
+$nu
+$nu.default-config-dir
+$nu
+cp $nu.default-config-dir ~/.config/nushell/nu
+mkdir ~/.config/nushell/nu
+cp $nu.default-config-dir ~/.config/nushell/nu

@@ -1,0 +1,16 @@
+# Ignore everything except subdirectories
+*
+!*/
+
+# Allow list
+!.gitignore
+
+!helix/**
+!starship.toml
+!filezilla/**
+
+# Nushell with configurable env
+!nushell/
+!nushell/**
+# ignore env.nu
+nushell/env.nu
