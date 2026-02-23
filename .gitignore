@@ -5,5 +5,7 @@
 # Allow list
 !helix/**
 !starship.toml
-!filezilla/**
 !fish/**
+
+# Sensitive - never track
+github-copilot/
