@@ -3,9 +3,11 @@
 !*/
 
 # Allow list
+!brew_install.sh
 !helix/**
 !starship.toml
 !fish/**
 
 # Sensitive - never track
 github-copilot/
+filezilla/
