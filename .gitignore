@@ -3,6 +3,7 @@
 !*/
 
 # Allow list
+!brew_install.sh
 !helix/**
 !starship.toml
 !fish/**
