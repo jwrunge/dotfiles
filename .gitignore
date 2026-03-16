@@ -11,3 +11,6 @@
 # Sensitive - never track
 github-copilot/
 filezilla/
+
+# Helix auto-generated grammar sources (fetched by `hx --grammar fetch`)
+helix/runtime/grammars/sources/
