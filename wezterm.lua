@@ -56,7 +56,7 @@ config.keys = {
   -- Close current pane
   {
     key = ';',
-    mods = "SHIFT|ALT",
+    mods = "ALT",
     action = act.CloseCurrentPane { confirm = true }
   },
   -- Nav UDLR
