@@ -7,14 +7,14 @@ local act = wezterm.action
 -- Use fish (location differs by OS)
 local fish_paths = { '/opt/homebrew/bin/fish', '/usr/bin/fish' }
 for _, path in ipairs(fish_paths) do
-  if wezterm.fs_stat(path) then
+  local f = io.open(path); if f then f:close()
     config.default_prog = { path }
     break
   end
 end
 
 -- Background settings
-config.window_background_opacity = 0.7
+config.window_background_opacity = 0.9
 if is_linux then config.kde_window_background_blur = true end
 if is_darwin then config.macos_window_background_blur = 10 end
 
@@ -23,13 +23,13 @@ config.keys = {
   -- Split horizontally (right)
   {
     key = 'l',
-    mods = 'CTRL',
+    mods = 'SHIFT|ALT',
     action = act.SplitHorizontal { domain = 'CurrentPaneDomain' },
   },
   -- Split horizontally (left)
   {
     key = 'h',
-    mods = 'CTRL',
+    mods = 'SHIFT|ALT',
     action = act.SplitPane {
       direction = 'Left',
       size = { Percent = 50 },
@@ -38,7 +38,7 @@ config.keys = {
   -- Split vertically (bottom)
   {
     key = 'j',
-    mods = 'CTRL',
+    mods = 'SHIFT|ALT',
     action = act.SplitPane {
       direction = 'Down',
       size = { Percent = 50 },
@@ -47,7 +47,7 @@ config.keys = {
   -- Split vertically (top)
   {
     key = 'k',
-    mods = 'CTRL',
+    mods = 'SHIFT|ALT',
     action = act.SplitPane {
       direction = 'Up',
       size = { Percent = 50 },
@@ -56,7 +56,7 @@ config.keys = {
   -- Close current pane
   {
     key = ';',
-    mods = "CTRL",
+    mods = "SHIFT|ALT",
     action = act.CloseCurrentPane { confirm = true }
   },
   -- Nav UDLR
