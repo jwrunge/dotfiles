@@ -4,8 +4,14 @@ local is_darwin = wezterm.target_triple:find("darwin") ~= nil
 local is_linux = wezterm.target_triple:find("linux") ~= nil
 local act = wezterm.action
 
--- Use nushell
-config.default_prog = {'/opt/homebrew/bin/fish'}
+-- Use fish (location differs by OS)
+local fish_paths = { '/opt/homebrew/bin/fish', '/usr/bin/fish' }
+for _, path in ipairs(fish_paths) do
+  if wezterm.fs_stat(path) then
+    config.default_prog = { path }
+    break
+  end
+end
 
 -- Background settings
 config.window_background_opacity = 0.7
