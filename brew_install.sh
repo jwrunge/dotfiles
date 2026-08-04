@@ -8,6 +8,7 @@ else
   brew install gh
 
   # cli utils
+  berw install starship
   brew install tre-command
   brew install bat
   brew install eza
